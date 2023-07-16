@@ -57,7 +57,7 @@ function App() {
       <Routes >
         {/* <Route path="/" element={<Layout />}> dcdc */}
           {/* public routes */}
-          <Route path="/" element={<Login />} />
+          <Route path="loginpage" element={<Login />} />
           <Route path="register" element={<Register />} />
           <Route path="unauthorized" element={<Unauthorized />} />
 

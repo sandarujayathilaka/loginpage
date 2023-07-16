@@ -7,7 +7,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter basename="/loginpage">
+    <BrowserRouter basename="/">
       <AuthProvider>
        
          <App />
