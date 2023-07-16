@@ -95,7 +95,7 @@ export default function EmployeePortal() {
               </NavLink>
 
               <NavLink
-                to="/employee/employeetasks"
+                to="/loginpage/employee/employeetasks"
                 className="bg-[#ffffff] hover:bg-[#797979] px-[15px] py-[8px] rounded-[120px] font-bold text-black text-[10px] block w-[150px] text-center mb-7 mx-auto"
                 onClick={handleNavLinkClick}
               >
