@@ -156,7 +156,8 @@ function EmployeeDash() {
           autoClose: 1000, // Display for 3 seconds
         });
         setTimeout(
-          () => (window.location.href = `/loginpage/employee/employeeform`),
+          () =>
+            (window.location.href = `/loginpage/loginpage/employee/employeeform`),
           2000
         );
       })
