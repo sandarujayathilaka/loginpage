@@ -54,10 +54,10 @@ const ROLES = {
 function App() {
   return (
     <>
-      <Routes basename="/loginpage">
+      <Routes >
         {/* <Route path="/" element={<Layout />}> */}
           {/* public routes */}
-          <Route path="loginpage" element={<Login />} />
+          <Route path="/" element={<Login />} />
           <Route path="register" element={<Register />} />
           <Route path="unauthorized" element={<Unauthorized />} />
 
