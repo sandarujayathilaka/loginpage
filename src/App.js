@@ -103,7 +103,7 @@ function App() {
             </Route>
 
             <Route element={<RequireAuth allowedRoles={[ROLES.Employee]} />}>
-              <Route path="employee" element={<EmployeePortal />}>
+              <Route path="loginpage/employee" element={<EmployeePortal />}>
                 <Route path="employeeform" element={<Employee />} />
                 <Route path="employeetasks" element={<EmployeeTasks />} />
                 <Route path="pendingtasks" element={<PendingTasks />} />
