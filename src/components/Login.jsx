@@ -50,7 +50,7 @@ toast.success("Login successfully");
             } else if (roles.includes(1984)) {
                 navigate("/ag/dashboard", { replace: true }); // Navigate to ag path
             } else if (roles.includes(2001)) {
-              navigate("/employee/employeeform", { replace: true }); // Navigate to ag path
+              navigate("/loginpage/employee/employeeform", { replace: true }); // Navigate to ag path
           } 
             else {
                 navigate("/common/role", { replace: true }); // Navigate to original path
