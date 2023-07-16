@@ -55,7 +55,7 @@ function App() {
   return (
     <>
       <Routes >
-        {/* <Route path="/" element={<Layout />}> */}
+        {/* <Route path="/" element={<Layout />}> dcdc */}
           {/* public routes */}
           <Route path="/" element={<Login />} />
           <Route path="register" element={<Register />} />
